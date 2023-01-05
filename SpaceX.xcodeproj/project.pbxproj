@@ -13,6 +13,11 @@
 		4700588F2955EB900037C5E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4700588D2955EB900037C5E7 /* Main.storyboard */; };
 		470058912955EB910037C5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 470058902955EB910037C5E7 /* Assets.xcassets */; };
 		470058942955EB910037C5E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 470058922955EB910037C5E7 /* LaunchScreen.storyboard */; };
+		4700589D2955EC1C0037C5E7 /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700589C2955EC1C0037C5E7 /* Rocket.swift */; };
+		4700589F2955ECC40037C5E7 /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4700589E2955ECC40037C5E7 /* Launch.swift */; };
+		470058A22955EE460037C5E7 /* RocketNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470058A12955EE460037C5E7 /* RocketNetworkService.swift */; };
+		47D5AB9E29670DF100A1E45B /* SettingsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5AB9D29670DF100A1E45B /* SettingsRepository.swift */; };
+		47D5ABA029670E2700A1E45B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D5AB9F29670E2700A1E45B /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		470058902955EB910037C5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		470058932955EB910037C5E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		470058952955EB910037C5E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4700589C2955EC1C0037C5E7 /* Rocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		4700589E2955ECC40037C5E7 /* Launch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		470058A12955EE460037C5E7 /* RocketNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketNetworkService.swift; sourceTree = "<group>"; };
+		47D5AB9D29670DF100A1E45B /* SettingsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRepository.swift; sourceTree = "<group>"; };
+		47D5AB9F29670E2700A1E45B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		470058862955EB900037C5E7 /* SpaceX */ = {
 			isa = PBXGroup;
 			children = (
+				470058A02955EE3E0037C5E7 /* Service */,
+				4700589B2955EC150037C5E7 /* Model */,
 				470058872955EB900037C5E7 /* AppDelegate.swift */,
 				470058892955EB900037C5E7 /* SceneDelegate.swift */,
 				4700588B2955EB900037C5E7 /* ViewController.swift */,
@@ -65,6 +77,25 @@
 				470058952955EB910037C5E7 /* Info.plist */,
 			);
 			path = SpaceX;
+			sourceTree = "<group>";
+		};
+		4700589B2955EC150037C5E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4700589C2955EC1C0037C5E7 /* Rocket.swift */,
+				4700589E2955ECC40037C5E7 /* Launch.swift */,
+				47D5AB9F29670E2700A1E45B /* Settings.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		470058A02955EE3E0037C5E7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				470058A12955EE460037C5E7 /* RocketNetworkService.swift */,
+				47D5AB9D29670DF100A1E45B /* SettingsRepository.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +171,12 @@
 			files = (
 				4700588C2955EB900037C5E7 /* ViewController.swift in Sources */,
 				470058882955EB900037C5E7 /* AppDelegate.swift in Sources */,
+				47D5ABA029670E2700A1E45B /* Settings.swift in Sources */,
 				4700588A2955EB900037C5E7 /* SceneDelegate.swift in Sources */,
+				4700589F2955ECC40037C5E7 /* Launch.swift in Sources */,
+				470058A22955EE460037C5E7 /* RocketNetworkService.swift in Sources */,
+				4700589D2955EC1C0037C5E7 /* Rocket.swift in Sources */,
+				47D5AB9E29670DF100A1E45B /* SettingsRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
